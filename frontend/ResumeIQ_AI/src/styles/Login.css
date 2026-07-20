@@ -1,0 +1,154 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.login-container{
+    min-height:100vh;
+    background:#050816;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.login-card{
+
+    width:420px;
+
+    background:#111827;
+
+    padding:40px;
+
+    border-radius:20px;
+
+    border:1px solid #00ffff40;
+
+    box-shadow:
+    0 0 20px #00ffff20,
+    0 0 40px #7c3aed30;
+
+}
+
+.logo{
+
+    text-align:center;
+
+    color:#00ffff;
+
+    margin-bottom:10px;
+
+    font-size:32px;
+
+    text-shadow:0 0 15px cyan;
+
+}
+
+.login-card h2{
+
+    text-align:center;
+
+    color:white;
+
+    margin-bottom:8px;
+
+}
+
+.subtitle{
+
+    text-align:center;
+
+    color:#9ca3af;
+
+    margin-bottom:30px;
+
+}
+
+.login-card form{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:18px;
+
+}
+
+.login-card input{
+
+    padding:14px;
+
+    background:#1f2937;
+
+    border:1px solid #374151;
+
+    color:white;
+
+    border-radius:10px;
+
+    outline:none;
+
+    transition:.3s;
+
+}
+
+.login-card input:focus{
+
+    border-color:#00ffff;
+
+    box-shadow:0 0 12px cyan;
+
+}
+
+.login-card button{
+
+    padding:14px;
+
+    border:none;
+
+    border-radius:10px;
+
+    background:linear-gradient(90deg,#06b6d4,#7c3aed);
+
+    color:white;
+
+    font-size:17px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.login-card button:hover{
+
+    transform:translateY(-2px);
+
+    box-shadow:0 0 20px cyan;
+
+}
+
+.signup-text{
+
+    margin-top:20px;
+
+    text-align:center;
+
+    color:#d1d5db;
+
+}
+
+.signup-text span{
+
+    color:#00ffff;
+
+    cursor:pointer;
+
+}
+
+.signup-text span:hover{
+
+    text-decoration:underline;
+
+}

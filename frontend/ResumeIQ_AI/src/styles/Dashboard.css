@@ -1,0 +1,117 @@
+.dashboard-container{
+    min-height:100vh;
+    background:#050816;
+    padding:50px 8%;
+    color:white;
+}
+
+.dashboard-container h1{
+    font-size:42px;
+    margin-bottom:10px;
+}
+
+.welcome-text{
+    color:#94A3B8;
+    font-size:18px;
+    margin-bottom:45px;
+}
+
+.resume-card{
+
+    background:rgba(17,24,39,.65);
+
+    border:1px solid rgba(0,245,255,.15);
+
+    backdrop-filter:blur(15px);
+
+    border-radius:20px;
+
+    padding:35px;
+
+    margin-bottom:40px;
+
+    box-shadow:0 0 30px rgba(0,245,255,.08);
+}
+
+.resume-card h2{
+
+    margin-bottom:18px;
+
+    color:#00F5FF;
+}
+
+.resume-card p{
+
+    color:#CBD5E1;
+
+    margin-bottom:25px;
+}
+
+.upload-link{
+
+    color:#00F5FF;
+
+    text-decoration:none;
+
+    font-weight:bold;
+
+    transition:.3s;
+}
+
+.upload-link:hover{
+
+    letter-spacing:1px;
+}
+
+.stats-container{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:25px;
+
+    
+}
+
+.stat-card{
+
+    background:rgba(17,24,39,.65);
+
+    border:1px solid rgba(0,245,255,.15);
+
+    backdrop-filter:blur(15px);
+
+    border-radius:18px;
+
+    padding:35px;
+
+    text-align:center;
+
+    transition:.35s;
+}
+
+.stat-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:
+    0 0 20px rgba(0,245,255,.25),
+    0 0 40px rgba(139,92,246,.12);
+}
+
+.stat-card h3{
+
+    color:#94A3B8;
+
+    margin-bottom:20px;
+}
+
+.stat-card span{
+
+    color:#00F5FF;
+
+    font-size:42px;
+
+    font-weight:bold;
+}
