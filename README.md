@@ -31,7 +31,7 @@ ResumeIQ AI is an AI-powered resume analyzer that evaluates resumes using Large 
   
 ## 🌐 Live Demo
 
-**Frontend:** *(Add your Vercel link here)*
+**Frontend:** https://resume-iq-ai-phi.vercel.app/
 
 **Backend:** https://resumeiq-ai-xaqv.onrender.com
 
