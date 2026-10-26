@@ -83,7 +83,7 @@ app.post("/analyze", upload.single("resume"), async (req, res) => {
         const mimeType = mime.lookup(req.file.originalname);
 
        const completion = await groq.chat.completions.create({
-  model: "qwen/qwen3.6-27b",
+  model: "qwen/qwen3.8-27b",
 
   messages: [
     {
